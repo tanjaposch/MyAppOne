@@ -1,0 +1,63 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "You"
+    },
+    "designerId": "66eb96f6-d0d2-4a55-96fd-828011ab16af",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name"
+            },
+            "designerId": "de0d03b5-b527-49e3-909c-ff74cdac5814"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "age",
+                "type": "int"
+            },
+            "designerId": "1d05b034-98a1-402f-9a3b-fd6796d133c6"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "gender"
+            },
+            "designerId": "149ca068-45c4-4d6d-ab09-ed46725c4c6a"
+        },
+        {
+            "type": "Ext.data.proxy.LocalStorage",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "MyAppO"
+            },
+            "designerId": "d5ef1967-48e0-4b17-aeac-08c3728afaf0"
+        }
+    ]
+}

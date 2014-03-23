@@ -1,0 +1,27 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "YouStore",
+        "storeId": "YouStore"
+    },
+    "designerId": "fcb281d7-f9f6-4224-8c89-a2b4cdfd623c",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id"
+            },
+            "designerId": "fc7e3c1a-fd36-49e6-8e6f-dc1b1f52d316"
+        }
+    ]
+}

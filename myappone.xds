@@ -1,0 +1,59 @@
+{
+    "name": "myappone",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.3.74",
+            "frameworkVersion": "2.3.1.410"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "http://localhost:1841",
+        "exportPath": "/home/opt/lampp/htdocs/xampp/test",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app"
+        }
+    },
+    "xdsVersion": "3.0.3",
+    "xdsBuild": 1382,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "ad841c19-487d-4c79-b4b9-843bb9c0ea66",
+            "94c5ec00-fd28-442d-bd46-c1a634f1e099"
+        ],
+        "store": [
+            "fcb281d7-f9f6-4224-8c89-a2b4cdfd623c",
+            "0f5e0acb-ec0f-4174-ba0f-bf1b06fc8d8e"
+        ],
+        "controller": [],
+        "model": [
+            "66eb96f6-d0d2-4a55-96fd-828011ab16af",
+            "74452945-fa36-43e9-84cf-ecf6701cd65e"
+        ],
+        "resource": [
+            "1b4f4844-b160-4c76-b4df-bcd22a60b9dc",
+            "bd106a31-c8fb-4096-ae24-ed51da86e53f"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
