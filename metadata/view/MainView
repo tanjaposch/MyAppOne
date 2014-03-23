@@ -45,11 +45,46 @@
                     "codeClass": null,
                     "userConfig": {
                         "centered": false,
+                        "docked": null,
                         "iconCls": "home",
                         "layout": "fit",
                         "title": "Main"
                     },
                     "designerId": "ddf91998-ba7e-4824-8c38-9717f4f771bb",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "centered": false,
+                                "html": "Welcome to our first app :)",
+                                "layout": "fit",
+                                "padding": 25,
+                                "styleHtmlContent": true
+                            },
+                            "designerId": "fd184b20-7780-4f74-88e7-e47770c708de"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "List",
+                        "iconCls": "arrow_up",
+                        "layout": "fit",
+                        "modal": false,
+                        "title": "List"
+                    },
+                    "designerId": "8a45a07f-45ef-4552-8ea0-a43a15d93dd1",
                     "cn": [
                         {
                             "type": "Ext.form.Panel",
@@ -124,22 +159,6 @@
                     ]
                 },
                 {
-                    "type": "Ext.Panel",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "designer|displayName": "List",
-                        "iconCls": "arrow_up",
-                        "layout": "fit",
-                        "modal": false,
-                        "title": "List"
-                    },
-                    "designerId": "8a45a07f-45ef-4552-8ea0-a43a15d93dd1"
-                },
-                {
                     "type": "Ext.Container",
                     "reference": {
                         "name": "items",
@@ -151,7 +170,21 @@
                         "layout": "fit",
                         "title": "Tab 3"
                     },
-                    "designerId": "d33bb876-7d02-4377-9043-edcd1e5e631e"
+                    "designerId": "d33bb876-7d02-4377-9043-edcd1e5e631e",
+                    "cn": [
+                        {
+                            "type": "Ext.field.TextArea",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Feedback"
+                            },
+                            "designerId": "59271d25-a7e6-41c3-9fd5-a5f04a4f555a"
+                        }
+                    ]
                 },
                 {
                     "type": "Ext.tab.Bar",

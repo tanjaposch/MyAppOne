@@ -23,6 +23,7 @@ Ext.define('MyAppOne.view.MainView', {
         'Ext.form.Panel',
         'Ext.form.FieldSet',
         'Ext.field.Select',
+        'Ext.field.TextArea',
         'Ext.tab.Bar'
     ],
 
@@ -44,6 +45,23 @@ Ext.define('MyAppOne.view.MainView', {
                         iconCls: 'home',
                         centered: false,
                         layout: 'fit',
+                        items: [
+                            {
+                                xtype: 'formpanel',
+                                centered: false,
+                                html: 'Welcome to our first app :)',
+                                padding: 25,
+                                styleHtmlContent: true,
+                                layout: 'fit'
+                            }
+                        ]
+                    },
+                    {
+                        xtype: 'panel',
+                        title: 'List',
+                        iconCls: 'arrow_up',
+                        layout: 'fit',
+                        modal: false,
                         items: [
                             {
                                 xtype: 'formpanel',
@@ -78,17 +96,16 @@ Ext.define('MyAppOne.view.MainView', {
                         ]
                     },
                     {
-                        xtype: 'panel',
-                        title: 'List',
-                        iconCls: 'arrow_up',
-                        layout: 'fit',
-                        modal: false
-                    },
-                    {
                         xtype: 'container',
                         title: 'Tab 3',
                         iconCls: 'info',
-                        layout: 'fit'
+                        layout: 'fit',
+                        items: [
+                            {
+                                xtype: 'textareafield',
+                                label: 'Feedback'
+                            }
+                        ]
                     }
                 ],
                 tabBar: {
